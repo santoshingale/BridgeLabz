@@ -25,8 +25,7 @@ public void getResult(int num){
 			
 	}
 
-	public static void main(String[] args) 
-		{
+	public static void main(String[] args) {
 		System.out.println("Enter the num");
 		Util util = new Util();
 		int num = util.getInt();

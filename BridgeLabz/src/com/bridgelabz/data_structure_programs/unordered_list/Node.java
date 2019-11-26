@@ -9,4 +9,10 @@ class Node{
 		next = null;
 		
 	}
+	Node()
+	{
+		data = null;
+		next = null;
+		
+	}
 }

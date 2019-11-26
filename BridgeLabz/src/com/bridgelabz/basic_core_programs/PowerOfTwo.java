@@ -3,11 +3,9 @@ package com.bridgelabz.basic_core_programs;
 import com.bridgelabz.util.Util;
 
 public class PowerOfTwo {
-	public int getPower(int num)
-	{
+	public int getPower(int num) {
 		int result = 1;
-		while(num != 1)
-		{
+		while(num != 1){
 			result = result * 2;
 			num--;
 		}
